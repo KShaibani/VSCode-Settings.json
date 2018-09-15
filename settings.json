@@ -16,6 +16,27 @@
     "window.titleBarStyle": "custom",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
 
+
+    "git.confirmSync": false,
+    "team.showWelcomeMessage": false,
+    
+	//editor line Highlight.
+    "editor.renderLineHighlight": "all",
+	
+	//Command Palette history default : 50.
+    "workbench.commandPalette.history": 100,
+    
+    //Hide Recommended Extensions 
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "explorer.openEditors.visible": 0,
+
+    //unsaved files are remembered between sessions
+    "files.hotExit": "onExit",
+    
+	"editor.showFoldingControls": "always",
+    "editor.lineNumbers": "on",
+    "editor.cursorWidth": 2,
+    
 	// for unity files.
     "files.exclude":
     {
@@ -61,6 +82,8 @@
         "**/*.meta":true,
         "**/*.prefab":true,
         "**/*.unity":true,
+		"**/*.csproj": true,
+        "**/*.sln":true
 		
         "build/":true,
         "Build/":true,
@@ -79,32 +102,11 @@
 		"**/*.mixer":true,
 
         //hide files inside Assets folder.
-        "Assets/Models":true,
-        "Assets/EngyneCreations":true,
-        "Assets/Gizmos":true,
-        "Assets/fx":true,
         "Assets/Scenes":true,
-        "Assets/Settings":true,
-        "Assets/yaSingleton":true,
-        "Assets/DebugDrawingExtension":true,
-        "Assets/Audio":true,
-        "Assets/Animation":true,
-		
-		
+ 		
         ".gitattributes":true,
-        "**/*.csproj": true,
-        "**/*.sln":true
 
     },
-	
-    "git.confirmSync": false,
-    "team.showWelcomeMessage": false,
     
-	
-	//line Highlight.
-    "editor.renderLineHighlight": "all",
-	
-	//command Palette history default : 50.
-    "workbench.commandPalette.history": 100,
     
 }
