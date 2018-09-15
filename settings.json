@@ -82,7 +82,7 @@
         "**/*.prefab":true,
         "**/*.unity":true,
         "**/*.csproj": true,
-        "**/*.sln":true
+        "**/*.sln":true,
 		
         "build/":true,
         "Build/":true,
