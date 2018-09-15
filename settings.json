@@ -1,4 +1,3 @@
-
 {
 	//Theme
     "workbench.colorTheme": "Monokai Pro",
@@ -82,7 +81,7 @@
         "**/*.meta":true,
         "**/*.prefab":true,
         "**/*.unity":true,
-		"**/*.csproj": true,
+        "**/*.csproj": true,
         "**/*.sln":true
 		
         "build/":true,
@@ -99,7 +98,7 @@
         "Packages":true,
         "UIElementsSchema":true,
         "UMotionData":true,
-		"**/*.mixer":true,
+        "**/*.mixer":true,
 
         //hide files inside Assets folder.
         "Assets/Scenes":true,
@@ -107,6 +106,4 @@
         ".gitattributes":true,
 
     },
-    
-    
 }
