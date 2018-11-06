@@ -1,14 +1,16 @@
 {
 	//Theme
     "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    
+	//icon
+    "workbench.iconTheme": "vscode-icons",
 
     "csharp.format.enable": false,
     
 	//font
     "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
 
 	//vs code Window and title.
     "window.menuBarVisibility": "default",
@@ -17,7 +19,7 @@
 
 
     "git.confirmSync": false,
-    "team.showWelcomeMessage": false,
+    //"team.showWelcomeMessage": false,
     
 	//editor line Highlight.
     "editor.renderLineHighlight": "all",
@@ -35,6 +37,27 @@
 	"editor.showFoldingControls": "always",
     "editor.lineNumbers": "on",
     "editor.cursorWidth": 2,
+	
+	//Customizing IntelliSense
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "editor.quickSuggestionsDelay": 1,
+    "editor.smoothScrolling": true,
+    "editor.suggestFontSize": 12,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggest.localityBonus": true,
+    "editor.wordBasedSuggestions": true,
+
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#b5c585",
+        "editor.selectionHighlightBackground": "#20879e",
+        //"editor.selectionHighlightBorder": "#c2bdbd",
+        "editor.selectionForeground": "#ffffff"
+
+    },
+
+	
+	
+	
     
 	// for unity files.
     "files.exclude":
@@ -102,8 +125,12 @@
 
         //hide files inside Assets folder.
         "Assets/Scenes":true,
- 		
         ".gitattributes":true,
+        "**/*.collabignore":true
 
-    },
+    }
+	
+	
+	
+	
 }
